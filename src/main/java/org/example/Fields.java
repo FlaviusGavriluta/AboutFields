@@ -7,5 +7,6 @@ public class Fields {
         Dog dog2 = new Dog();
         dog2.name = "Charlie";
         System.out.println(dog1.name + " + " + dog2.name);
+        System.out.println("There are " + Dog.dogCount + " dogs"); // This will print 2
     }
 }
